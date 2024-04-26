@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>Image Upload</h1> -->
+    <form action="http://localhost:3010/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Upload Image</button>
+    </form>
+
+    <div class="container">
+        <div class="cards">
+            <div class="card">
+                <h2>1st size</h2>
+                <div class="card-img"><img src="" alt=""></div>
+            </div>
+            <div class="card">
+                <h2>2nd size</h2>
+                <div class="card-img"><img src="" alt=""></div>
+            </div>
+            <div class="card">
+                <h2>3rd size</h2>
+                <div class="card-img"><img src="" alt=""></div>
+            </div>
+            <div class="card">
+                <h2>4th size</h2>
+                <div class="card-img"><img src="" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

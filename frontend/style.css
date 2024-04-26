@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e2e2e2;
+}
+.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 1%;
+    border-radius: 12px;
+}
+.card{
+    width: 23%;
+    background-color: #fff;
+    padding: 2%;
+}
